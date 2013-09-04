@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0338F5B6175AEF1B001456A8 /* DataTransparentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0338F5B4175AEF1B001456A8 /* DataTransparentViewController.m */; };
+		0338F5B7175AEF1B001456A8 /* DataTransparentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0338F5B5175AEF1B001456A8 /* DataTransparentViewController.xib */; };
+		0338F5BA175AEFC9001456A8 /* TableAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0338F5B9175AEFC9001456A8 /* TableAlertView.m */; };
+		0338F5BE175B2D50001456A8 /* DeviceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0338F5BC175B2D50001456A8 /* DeviceInfoViewController.m */; };
+		0338F5BF175B2D50001456A8 /* DeviceInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0338F5BD175B2D50001456A8 /* DeviceInfoViewController.xib */; };
+		0338F5C3175B3088001456A8 /* ProprietaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0338F5C1175B3088001456A8 /* ProprietaryViewController.m */; };
+		0338F5C4175B3088001456A8 /* ProprietaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0338F5C2175B3088001456A8 /* ProprietaryViewController.xib */; };
+		CE837843175D76B9002B5CE7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE837842175D76B9002B5CE7 /* icon.png */; };
+		CE83C9741739050700839F3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83C9731739050700839F3F /* UIKit.framework */; };
+		CE83C9761739050700839F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83C9751739050700839F3F /* Foundation.framework */; };
+		CE83C9781739050700839F3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83C9771739050700839F3F /* CoreGraphics.framework */; };
+		CE83C97E1739050700839F3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE83C97C1739050700839F3F /* InfoPlist.strings */; };
+		CE83C9801739050700839F3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83C97F1739050700839F3F /* main.m */; };
+		CE83C9841739050700839F3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83C9831739050700839F3F /* AppDelegate.m */; };
+		CE83C9861739050700839F3F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE83C9851739050700839F3F /* Default.png */; };
+		CE83C9881739050700839F3F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE83C9871739050700839F3F /* Default@2x.png */; };
+		CE83C98A1739050700839F3F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE83C9891739050700839F3F /* Default-568h@2x.png */; };
+		CE83C98D1739050700839F3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83C98C1739050700839F3F /* ViewController.m */; };
+		CE83C9901739050700839F3F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE83C98E1739050700839F3F /* ViewController.xib */; };
+		CE83C9971739052C00839F3F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83C9961739052C00839F3F /* CoreBluetooth.framework */; };
+		CE83CF091756047E00295C6E /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83CF071756047E00295C6E /* ConnectViewController.m */; };
+		CE83CF0A1756047E00295C6E /* ConnectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE83CF081756047E00295C6E /* ConnectViewController.xib */; };
+		CE83CF16175606B100295C6E /* 1k.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE83CF0B175606B100295C6E /* 1k.txt */; };
+		CE83CF17175606B100295C6E /* 10k.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE83CF0C175606B100295C6E /* 10k.txt */; };
+		CE83CF18175606B100295C6E /* 50k.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE83CF0D175606B100295C6E /* 50k.txt */; };
+		CE83CF19175606B100295C6E /* 100k.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE83CF0E175606B100295C6E /* 100k.txt */; };
+		CE83CF1A175606B100295C6E /* 200k.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE83CF0F175606B100295C6E /* 200k.txt */; };
+		CE83CF1B175606B100295C6E /* 500k.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE83CF10175606B100295C6E /* 500k.txt */; };
+		CE83CF1C175606B100295C6E /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE83CF11175606B100295C6E /* background1.jpg */; };
+		CE83CF1F175606B100295C6E /* Icon_old.png in Resources */ = {isa = PBXBuildFile; fileRef = CE83CF14175606B100295C6E /* Icon_old.png */; };
+		CE83CF22175606D800295C6E /* icon 57.png in Resources */ = {isa = PBXBuildFile; fileRef = CE83CF21175606D800295C6E /* icon 57.png */; };
+		CE83CF24175606E400295C6E /* icon 114.png in Resources */ = {isa = PBXBuildFile; fileRef = CE83CF23175606E400295C6E /* icon 114.png */; };
+		CE83CF2E1756EA3F00295C6E /* CBController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83CF2D1756EA3F00295C6E /* CBController.m */; };
+		CE83CF321756F3E700295C6E /* MyPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83CF311756F3E600295C6E /* MyPeripheral.m */; };
+		CE83CF3517589F8700295C6E /* ISError.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83CF3417589F8700295C6E /* ISError.m */; };
+		CEFD37FC176B15FD0078B88D /* UUIDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFD37FA176B15FC0078B88D /* UUIDSettingViewController.m */; };
+		CEFD37FD176B15FD0078B88D /* UUIDSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFD37FB176B15FD0078B88D /* UUIDSettingViewController.xib */; };
+		CEFD3800176B176B0078B88D /* SettingAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFD37FF176B176B0078B88D /* SettingAlertView.m */; };
+		E18217571771885100173E2F /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E18217561771885100173E2F /* DeviceInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0338F5B3175AEF1B001456A8 /* DataTransparentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTransparentViewController.h; sourceTree = "<group>"; };
+		0338F5B4175AEF1B001456A8 /* DataTransparentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTransparentViewController.m; sourceTree = "<group>"; };
+		0338F5B5175AEF1B001456A8 /* DataTransparentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataTransparentViewController.xib; sourceTree = "<group>"; };
+		0338F5B8175AEFC9001456A8 /* TableAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableAlertView.h; sourceTree = "<group>"; };
+		0338F5B9175AEFC9001456A8 /* TableAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableAlertView.m; sourceTree = "<group>"; };
+		0338F5BB175B2D50001456A8 /* DeviceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoViewController.h; sourceTree = "<group>"; };
+		0338F5BC175B2D50001456A8 /* DeviceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoViewController.m; sourceTree = "<group>"; };
+		0338F5BD175B2D50001456A8 /* DeviceInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceInfoViewController.xib; sourceTree = "<group>"; };
+		0338F5C0175B3088001456A8 /* ProprietaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProprietaryViewController.h; sourceTree = "<group>"; };
+		0338F5C1175B3088001456A8 /* ProprietaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProprietaryViewController.m; sourceTree = "<group>"; };
+		0338F5C2175B3088001456A8 /* ProprietaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProprietaryViewController.xib; sourceTree = "<group>"; };
+		CE837842175D76B9002B5CE7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = resource/icon.png; sourceTree = "<group>"; };
+		CE83C9701739050700839F3F /* BLETR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLETR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE83C9731739050700839F3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE83C9751739050700839F3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE83C9771739050700839F3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE83C97B1739050700839F3F /* BLETR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLETR-Info.plist"; sourceTree = "<group>"; };
+		CE83C97D1739050700839F3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE83C97F1739050700839F3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE83C9811739050700839F3F /* BLETR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLETR-Prefix.pch"; sourceTree = "<group>"; };
+		CE83C9821739050700839F3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE83C9831739050700839F3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE83C9851739050700839F3F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE83C9871739050700839F3F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE83C9891739050700839F3F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE83C98B1739050700839F3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE83C98C1739050700839F3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE83C98F1739050700839F3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CE83C9961739052C00839F3F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CE83CF061756047E00295C6E /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		CE83CF071756047E00295C6E /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		CE83CF081756047E00295C6E /* ConnectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectViewController.xib; sourceTree = "<group>"; };
+		CE83CF0B175606B100295C6E /* 1k.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 1k.txt; path = resource/1k.txt; sourceTree = "<group>"; };
+		CE83CF0C175606B100295C6E /* 10k.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 10k.txt; path = resource/10k.txt; sourceTree = "<group>"; };
+		CE83CF0D175606B100295C6E /* 50k.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 50k.txt; path = resource/50k.txt; sourceTree = "<group>"; };
+		CE83CF0E175606B100295C6E /* 100k.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 100k.txt; path = resource/100k.txt; sourceTree = "<group>"; };
+		CE83CF0F175606B100295C6E /* 200k.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 200k.txt; path = resource/200k.txt; sourceTree = "<group>"; };
+		CE83CF10175606B100295C6E /* 500k.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 500k.txt; path = resource/500k.txt; sourceTree = "<group>"; };
+		CE83CF11175606B100295C6E /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background1.jpg; path = resource/background1.jpg; sourceTree = "<group>"; };
+		CE83CF14175606B100295C6E /* Icon_old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_old.png; path = resource/Icon_old.png; sourceTree = "<group>"; };
+		CE83CF21175606D800295C6E /* icon 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon 57.png"; sourceTree = "<group>"; };
+		CE83CF23175606E400295C6E /* icon 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon 114.png"; sourceTree = "<group>"; };
+		CE83CF2C1756EA3F00295C6E /* CBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBController.h; sourceTree = "<group>"; };
+		CE83CF2D1756EA3F00295C6E /* CBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBController.m; sourceTree = "<group>"; };
+		CE83CF2F1756EB3100295C6E /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		CE83CF301756F3E600295C6E /* MyPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPeripheral.h; sourceTree = "<group>"; };
+		CE83CF311756F3E600295C6E /* MyPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPeripheral.m; sourceTree = "<group>"; };
+		CE83CF3317589F8700295C6E /* ISError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISError.h; sourceTree = "<group>"; };
+		CE83CF3417589F8700295C6E /* ISError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISError.m; sourceTree = "<group>"; };
+		CEFD37F9176B15FC0078B88D /* UUIDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUIDSettingViewController.h; sourceTree = "<group>"; };
+		CEFD37FA176B15FC0078B88D /* UUIDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUIDSettingViewController.m; sourceTree = "<group>"; };
+		CEFD37FB176B15FD0078B88D /* UUIDSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UUIDSettingViewController.xib; sourceTree = "<group>"; };
+		CEFD37FE176B176B0078B88D /* SettingAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingAlertView.h; sourceTree = "<group>"; };
+		CEFD37FF176B176B0078B88D /* SettingAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingAlertView.m; sourceTree = "<group>"; };
+		E18217551771885100173E2F /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		E18217561771885100173E2F /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE83C96D1739050700839F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE83C9971739052C00839F3F /* CoreBluetooth.framework in Frameworks */,
+				CE83C9741739050700839F3F /* UIKit.framework in Frameworks */,
+				CE83C9761739050700839F3F /* Foundation.framework in Frameworks */,
+				CE83C9781739050700839F3F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE83C9671739050700839F3F = {
+			isa = PBXGroup;
+			children = (
+				CE83CF23175606E400295C6E /* icon 114.png */,
+				CE83CF21175606D800295C6E /* icon 57.png */,
+				CE83C9961739052C00839F3F /* CoreBluetooth.framework */,
+				CE83C9791739050700839F3F /* BLETR */,
+				CE83C9721739050700839F3F /* Frameworks */,
+				CE83C9711739050700839F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE83C9711739050700839F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE83C9701739050700839F3F /* BLETR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE83C9721739050700839F3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE83C9731739050700839F3F /* UIKit.framework */,
+				CE83C9751739050700839F3F /* Foundation.framework */,
+				CE83C9771739050700839F3F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE83C9791739050700839F3F /* BLETR */ = {
+			isa = PBXGroup;
+			children = (
+				CE83C9821739050700839F3F /* AppDelegate.h */,
+				CE83C9831739050700839F3F /* AppDelegate.m */,
+				CE83CF2C1756EA3F00295C6E /* CBController.h */,
+				CE83CF2D1756EA3F00295C6E /* CBController.m */,
+				CE83CF301756F3E600295C6E /* MyPeripheral.h */,
+				CE83CF311756F3E600295C6E /* MyPeripheral.m */,
+				CE83CF061756047E00295C6E /* ConnectViewController.h */,
+				CE83CF071756047E00295C6E /* ConnectViewController.m */,
+				CE83CF081756047E00295C6E /* ConnectViewController.xib */,
+				CE83C98B1739050700839F3F /* ViewController.h */,
+				CE83C98C1739050700839F3F /* ViewController.m */,
+				CE83C98E1739050700839F3F /* ViewController.xib */,
+				0338F5BB175B2D50001456A8 /* DeviceInfoViewController.h */,
+				0338F5BC175B2D50001456A8 /* DeviceInfoViewController.m */,
+				0338F5BD175B2D50001456A8 /* DeviceInfoViewController.xib */,
+				0338F5B3175AEF1B001456A8 /* DataTransparentViewController.h */,
+				0338F5B4175AEF1B001456A8 /* DataTransparentViewController.m */,
+				0338F5B5175AEF1B001456A8 /* DataTransparentViewController.xib */,
+				0338F5C0175B3088001456A8 /* ProprietaryViewController.h */,
+				0338F5C1175B3088001456A8 /* ProprietaryViewController.m */,
+				0338F5C2175B3088001456A8 /* ProprietaryViewController.xib */,
+				CEFD37F9176B15FC0078B88D /* UUIDSettingViewController.h */,
+				CEFD37FA176B15FC0078B88D /* UUIDSettingViewController.m */,
+				CEFD37FB176B15FD0078B88D /* UUIDSettingViewController.xib */,
+				CEFD37FE176B176B0078B88D /* SettingAlertView.h */,
+				CEFD37FF176B176B0078B88D /* SettingAlertView.m */,
+				0338F5B8175AEFC9001456A8 /* TableAlertView.h */,
+				0338F5B9175AEFC9001456A8 /* TableAlertView.m */,
+				CE83CF3317589F8700295C6E /* ISError.h */,
+				CE83CF3417589F8700295C6E /* ISError.m */,
+				CE83CF2F1756EB3100295C6E /* UUID.h */,
+				CE83C97A1739050700839F3F /* Supporting Files */,
+				E18217551771885100173E2F /* DeviceInfo.h */,
+				E18217561771885100173E2F /* DeviceInfo.m */,
+			);
+			path = BLETR;
+			sourceTree = "<group>";
+		};
+		CE83C97A1739050700839F3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE83CF0B175606B100295C6E /* 1k.txt */,
+				CE83CF0C175606B100295C6E /* 10k.txt */,
+				CE83CF0D175606B100295C6E /* 50k.txt */,
+				CE83CF0E175606B100295C6E /* 100k.txt */,
+				CE837842175D76B9002B5CE7 /* icon.png */,
+				CE83CF0F175606B100295C6E /* 200k.txt */,
+				CE83CF10175606B100295C6E /* 500k.txt */,
+				CE83CF11175606B100295C6E /* background1.jpg */,
+				CE83CF14175606B100295C6E /* Icon_old.png */,
+				CE83C97B1739050700839F3F /* BLETR-Info.plist */,
+				CE83C97C1739050700839F3F /* InfoPlist.strings */,
+				CE83C97F1739050700839F3F /* main.m */,
+				CE83C9811739050700839F3F /* BLETR-Prefix.pch */,
+				CE83C9851739050700839F3F /* Default.png */,
+				CE83C9871739050700839F3F /* Default@2x.png */,
+				CE83C9891739050700839F3F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE83C96F1739050700839F3F /* BLETR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE83C9931739050700839F3F /* Build configuration list for PBXNativeTarget "BLETR" */;
+			buildPhases = (
+				CE83C96C1739050700839F3F /* Sources */,
+				CE83C96D1739050700839F3F /* Frameworks */,
+				CE83C96E1739050700839F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLETR;
+			productName = BLETR;
+			productReference = CE83C9701739050700839F3F /* BLETR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE83C9681739050700839F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ISSC;
+			};
+			buildConfigurationList = CE83C96B1739050700839F3F /* Build configuration list for PBXProject "BLETR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE83C9671739050700839F3F;
+			productRefGroup = CE83C9711739050700839F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE83C96F1739050700839F3F /* BLETR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE83C96E1739050700839F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE83C97E1739050700839F3F /* InfoPlist.strings in Resources */,
+				CE83C9861739050700839F3F /* Default.png in Resources */,
+				CE83C9881739050700839F3F /* Default@2x.png in Resources */,
+				CE83C98A1739050700839F3F /* Default-568h@2x.png in Resources */,
+				CE83C9901739050700839F3F /* ViewController.xib in Resources */,
+				CE83CF0A1756047E00295C6E /* ConnectViewController.xib in Resources */,
+				CE83CF16175606B100295C6E /* 1k.txt in Resources */,
+				CE83CF17175606B100295C6E /* 10k.txt in Resources */,
+				CE83CF18175606B100295C6E /* 50k.txt in Resources */,
+				CE83CF19175606B100295C6E /* 100k.txt in Resources */,
+				CE83CF1A175606B100295C6E /* 200k.txt in Resources */,
+				CE83CF1B175606B100295C6E /* 500k.txt in Resources */,
+				CE83CF1C175606B100295C6E /* background1.jpg in Resources */,
+				CE83CF1F175606B100295C6E /* Icon_old.png in Resources */,
+				CE83CF22175606D800295C6E /* icon 57.png in Resources */,
+				CE83CF24175606E400295C6E /* icon 114.png in Resources */,
+				0338F5B7175AEF1B001456A8 /* DataTransparentViewController.xib in Resources */,
+				0338F5BF175B2D50001456A8 /* DeviceInfoViewController.xib in Resources */,
+				0338F5C4175B3088001456A8 /* ProprietaryViewController.xib in Resources */,
+				CE837843175D76B9002B5CE7 /* icon.png in Resources */,
+				CEFD37FD176B15FD0078B88D /* UUIDSettingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE83C96C1739050700839F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE83C9801739050700839F3F /* main.m in Sources */,
+				CE83C9841739050700839F3F /* AppDelegate.m in Sources */,
+				CE83C98D1739050700839F3F /* ViewController.m in Sources */,
+				CE83CF091756047E00295C6E /* ConnectViewController.m in Sources */,
+				CE83CF2E1756EA3F00295C6E /* CBController.m in Sources */,
+				CE83CF321756F3E700295C6E /* MyPeripheral.m in Sources */,
+				CE83CF3517589F8700295C6E /* ISError.m in Sources */,
+				0338F5B6175AEF1B001456A8 /* DataTransparentViewController.m in Sources */,
+				0338F5BA175AEFC9001456A8 /* TableAlertView.m in Sources */,
+				0338F5BE175B2D50001456A8 /* DeviceInfoViewController.m in Sources */,
+				0338F5C3175B3088001456A8 /* ProprietaryViewController.m in Sources */,
+				CEFD37FC176B15FD0078B88D /* UUIDSettingViewController.m in Sources */,
+				CEFD3800176B176B0078B88D /* SettingAlertView.m in Sources */,
+				E18217571771885100173E2F /* DeviceInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE83C97C1739050700839F3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE83C97D1739050700839F3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE83C98E1739050700839F3F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE83C98F1739050700839F3F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE83C9911739050700839F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE83C9921739050700839F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE83C9941739050700839F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: LEE CHUNGI (G9E2P3399W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLETR/BLETR-Prefix.pch";
+				INFOPLIST_FILE = "BLETR/BLETR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D59C6324-57CE-48EA-85B7-1DA8D9BB0DBF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE83C9951739050700839F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: LEE CHUNGI (G9E2P3399W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLETR/BLETR-Prefix.pch";
+				INFOPLIST_FILE = "BLETR/BLETR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D59C6324-57CE-48EA-85B7-1DA8D9BB0DBF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE83C96B1739050700839F3F /* Build configuration list for PBXProject "BLETR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE83C9911739050700839F3F /* Debug */,
+				CE83C9921739050700839F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE83C9931739050700839F3F /* Build configuration list for PBXNativeTarget "BLETR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE83C9941739050700839F3F /* Debug */,
+				CE83C9951739050700839F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE83C9681739050700839F3F /* Project object */;
+}
